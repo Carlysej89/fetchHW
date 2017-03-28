@@ -55,7 +55,7 @@ promise2.then( function handleResponse(responseObj) {
       });
     }
     let contributorPromise = fetch(
-           'https://api.github.com/repos/' + userName +  '/contributors',
+           'https://api.github.com/repos/' +  '/contributors',
            {
              method: 'GET',
              headers: {
